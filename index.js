@@ -1,5 +1,6 @@
-function helloNpm(){
-    console.log("hello NPM")
+function reverseString(s) {
+    return s.split('').reverse().join('');
 }
 
-module.exports=helloNpm
+
+module.exports=reverseString
