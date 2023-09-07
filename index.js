@@ -1,5 +1,6 @@
 function reverseString(s) {
-    return s.split('').reverse().join('');
+	console.log("String passed to function is: ", s);
+    return s.split('').reverse().join(',');
 }
 
 

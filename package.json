@@ -1,18 +1,20 @@
 {
-  "name": "fnpm-package",
-  "version": "1.0.1",
-  "description": "",
+  "name": "rev-stringer",
+  "version": "1.0.3",
+  "description": "A npm package to reverse the string",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node index.js"
   },
   "repository": {
   "type": "git",
-  "url": "https://github.com/RamGoel/fnpm-package.git"
+  "url": "https://github.com/RamGoel/first-npm-package"
 },
   "keywords": [
     "reverse",
     "string",
+    "npm",
     "string-reverse"
   ],
   "author": "",
